@@ -1,0 +1,91 @@
+{% extends "layouts/base.html" %}
+
+{% block title %}{% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <main>
+        
+        {% include 'includes/preloader.html' %}
+
+        <!-- Hero -->
+        <div class="section-header pb-6 bg-primary text-white">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8 text-center">
+                        <h1 class="display-3 mb-4">Greetings</h1>
+                        <p class="lead mb-5">Some quick signs for interacting in ISL.</p>
+                            <a class="btn btn-primary text-white" type="button" id="cam1" href="/lstm-detect-1">
+                                Take it for a spin<span class="me-1"></span>
+                             </a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End of Hero -->
+        
+        <!-- Section -->
+        <div class="section section-md">
+            <div class="container">
+                <div class="row">
+                  <div class="row mb-5 mb-lg-6">
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card shadow border-gray-300">
+                            
+                            <div class="card-body">
+                                <h3 class="h4 card-title mb-2">Good Morning in ISL</h3>
+                                <span class="card-subtitle text-gray fw-normal"> </span>
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/L37McuHckSI" controls autoplay></iframe>
+                                  </div>
+                              
+                                <p class="card-text my-3"><h4 class="fw-bold">TIP:</h4>Use one hand to show "Thumbs UP" sign and the other for showing the position of day for personal ease.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="card shadow border-gray-300">
+                            
+                            <div class="card-body">
+                                <h3 class="h4 card-title mb-2">Good Afternoon in ISL</h3>
+                                <span class="card-subtitle text-gray fw-normal"> </span>
+                                   <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y9CWBEBX_DQ" controls autoplay></iframe>
+                                  </div>
+                                  <p class="card-text my-3"><h4 class="fw-bold">TIP:</h4>Use one hand to show "Thumbs UP" sign and the other for showing the position of day for personal ease.</p>
+        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card shadow border-gray-300">
+                          
+                            <div class="card-body">
+                                <h3 class="h4 card-title mb-2">Good Night in ISL</h3>
+                                <span class="card-subtitle text-gray fw-normal"></span>
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/KadUmPHORYo" controls autoplay></iframe>
+                                    <p class="card-text my-3"><h4 class="fw-bold">TIP:</h4>Use one hand to show "Thumbs UP" sign and the other for showing the position of day for personal ease.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                  </div>
+              </div>
+          </div>
+        
+        <!-- End of Section -->
+     
+    </main>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
